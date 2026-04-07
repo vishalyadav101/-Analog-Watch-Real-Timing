@@ -39,25 +39,12 @@ AnalogWatch/
 
 ---
 
-## ▶️ How to Run
-
-1. Download or clone the repository:
-
-```
-git clone https://github.com/your-username/analog-watch.git
-```
-
-2. Open the project folder
-
-3. Run the project:
-
-* Open `index.html` in your browser
-
----
+ 
 
 ## 📸 Preview
 
-(Add screenshot here after uploading project)
+<img width="1238" height="638" alt="image" src="https://github.com/user-attachments/assets/c9d04ddb-0341-4908-a29e-16fc66f3bf61" />
+
 
 ---
 
