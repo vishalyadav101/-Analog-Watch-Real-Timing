@@ -1,0 +1,55 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Analog Watch</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;600&family=Montserrat:wght@200;300;400&display=swap" rel="stylesheet"/>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="brand">Aurelion &nbsp;·&nbsp; Horlogerie</div>
+
+  <div class="watch-outer">
+    <div class="lug lug-top"></div>
+    <div class="lug lug-bot"></div>
+    <div class="crown"></div>
+
+    <div class="watch-case">
+      <div class="watch-dial" id="dial">
+
+        <canvas id="marker-canvas" width="242" height="242" style="position:absolute;inset:0;border-radius:50%;"></canvas>
+
+        <div class="dial-brand">
+          <span class="dial-brand-name">Aurelion</span>
+          <span class="dial-brand-sub">Swiss Made</span>
+        </div>
+
+        <div class="date-window">
+          <span class="date-text" id="date-num">—</span>
+        </div>
+
+        <div class="hand hand-hour"   id="hand-hour"></div>
+        <div class="hand hand-minute" id="hand-minute"></div>
+        <div class="hand hand-second" id="hand-second"></div>
+
+        <div class="center-dot"></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="watch-info">
+    <div class="time-digital" id="digital-time">--<span>:</span>--<span>:</span>--</div>
+    <div class="date-full" id="date-full">— · — · ——</div>
+  </div>
+
+  <!-- JS -->
+  <script src="script.js"></script>
+</body>
+</html>
